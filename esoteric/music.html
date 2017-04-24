@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>esotric</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="makuuti">
+<a href="index.html" id="esotriclogo" title="logo">esotric</a>
+</div>
+
+<div id="navi">
+<ul>
+<li><a href="index.html">Biography |</a></li>
+<li><a href="news.html">News |</a></li>
+<li><a href="music.html">Music |</a></li>
+<li><a href="blog.html">Blog |</a></li>
+<li><a href="link.html">Link</a></li>
+</ul>
+</div>
+
+<div id="line"></div>
+
+<div id="jyuryou">
+<a href="music.html"id="topimg3" title="topimg">top</a>
+</div>
+
+<div id="line"></div>
+
+<div id="contents">
+<h1>MySpace</h1>
+<a href="http://www.myspace.com/1005013311"id="myspace" title="myspace">myspace</a>
+
+</div>
+
+<div id="contents2">
+<h1>YouTube</h1>
+<a href="http://www.youtube.com"id="youtube" title="youtube">youtube</a>
+</div>
+
+<div id="feed">
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 6,
+  interval: 30000,
+  width: 250,
+  height: 600,
+  theme: {
+    shell: {
+      background: '#333333',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#000000',
+      color: '#ffffff',
+      links: '#4aed05'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('esoteric07').start();
+</script>
+</div>
+
+<div id="foot1"></div>
+<div id="foot">
+<h2>Copyright (C)esoteric 2011-2012 all rights reserved.</h2>
+</div>
+	
+</body>
+</html>
